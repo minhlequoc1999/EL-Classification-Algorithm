@@ -1,0 +1,13 @@
+12
+1 ALU Component
+3 ALU partOf CPU
+1 ALUFault Fault
+3 ALUFault location ALU
+2 Fault A ALUFault
+4 location ALU A
+1 CPUFault Fault
+3 CPUFault location B
+3 B partOf CPU
+2 Fault D CPUFault
+4 location C D
+4 partOf CPU C
