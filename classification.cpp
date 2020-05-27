@@ -25,7 +25,8 @@ bool rule1(){
     for(int i=0;i<type1.size();++i){
         for(int j=0;j<type1.size();++j){
             pair<string,string> p1=type1[i];
-            pair<string,string> p2=type1[i];
+            pair<string,string> p2=type1[j];
+
             if(p1.second==p2.first){
                 bool exist=false;
                 for(int l=0;l<type1.size();++l){
@@ -195,6 +196,7 @@ int main(){
             if(rule2()) change=true;
             if(rule3()) change=true;
             if(!change) break;
+      //      cout<<change<<endl;
         }
 
 }
