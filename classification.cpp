@@ -151,6 +151,7 @@ int main(){
                 inf.push_back(make_pair(s3,s3));
                 inf.push_back(make_pair(s3,T));
             }
+            type2.push_back(make_pair(make_pair(s2,s1),s3));
         }
         else if(type==3){
             string s1,s2,s3;
